@@ -120,3 +120,26 @@
     color: #FFFFFF;
     font-weight: 600;
 }
+
+@media (max-width: 600px){
+    .quoteButton{
+        margin-bottom: 20px;
+    }
+
+    .App-c{
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px){
+    .quoteBoxl,
+    .quoteBoxr{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .quoteauthor{
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+}
